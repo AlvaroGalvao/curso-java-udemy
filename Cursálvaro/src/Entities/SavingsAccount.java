@@ -1,7 +1,7 @@
 package Entities;
 
 // Classe SavingsAccount que herda de Account
-public class SavingsAccount extends Account {
+public final class SavingsAccount extends Account { //O "final" da classe impede que ela seja herdada por outra classe
     
     // Taxa de juros aplicada ao saldo da conta poupança
     private Double interestRate;
@@ -34,7 +34,7 @@ public class SavingsAccount extends Account {
     
     //Override é uma boa prática para indicar para o compilador que eu estou sobrepondo um código herdado ou já criado
     @Override
-    public void withdraw(Double amount) {
+    public final void withdraw(Double amount) { //O "final" impede que o método da classe seja sobreposto
     	balance -= amount; //Retira o valor informado da conta sem a taxa padrão
     }
 }
