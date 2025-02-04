@@ -33,4 +33,11 @@ public class BusinessAccount extends Account {
         	balance += amount; //Com o atributo sendo protected, a classe BusinessAccount consegue acessá-lo, caso estivesse private, esse código daria erro
         }
     }
+    
+  //Override é uma boa prática para indicar para o compilador que eu estou sobrepondo um código herdado ou já criado
+    @Override
+    public void withdraw(Double amount) {
+    	super.withdraw(amount); //Retira o valor da conta com a taxa padrão
+    	balance -= 2.0; //Retira 2 a mais do valor da conta
+    }
 }

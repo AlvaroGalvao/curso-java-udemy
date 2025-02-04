@@ -43,7 +43,7 @@ public class Account {
     
     // Método para realizar saque na conta
     public void withdraw(Double amount) {
-        balance -= amount; // Reduz o valor do saldo
+        balance -= amount + 5.0; // Reduz o valor informado, e a taxa da operação, do saldo 
     }
     
     // Método para realizar depósito na conta

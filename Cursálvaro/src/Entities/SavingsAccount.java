@@ -31,4 +31,10 @@ public class SavingsAccount extends Account {
     public void updateBalance() {
         balance += balance * interestRate;
     }
+    
+    //Override é uma boa prática para indicar para o compilador que eu estou sobrepondo um código herdado ou já criado
+    @Override
+    public void withdraw(Double amount) {
+    	balance -= amount; //Retira o valor informado da conta sem a taxa padrão
+    }
 }
