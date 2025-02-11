@@ -4,9 +4,9 @@ import java.util.Locale; // Importa a classe Locale para definir configurações
 import java.util.List; // Importa a interface List para trabalhar com listas.
 import java.util.ArrayList; // Importa a classe ArrayList para instanciar listas dinâmicas.
 
-import Entities.Account; // Importa a classe Account, que é a classe base das contas bancárias.
-import Entities.SavingsAccount; // Importa a classe SavingsAccount, que representa uma conta poupança.
-import Entities.BusinessAccount; // Importa a classe BusinessAccount, que representa uma conta empresarial.
+import Model.Entities.Account; // Importa a classe Account, que é a classe base das contas bancárias.
+import Model.Entities.SavingsAccount; // Importa a classe SavingsAccount, que representa uma conta poupança.
+import Model.Entities.BusinessAccount; // Importa a classe BusinessAccount, que representa uma conta empresarial.
 
 public class Aula23 { // Declara a classe principal do programa.
 

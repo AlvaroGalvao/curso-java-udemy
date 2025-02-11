@@ -2,8 +2,8 @@ package Applications;
 
 // Importações necessárias
 import java.util.Date; // Classe para manipulação de datas
-import Entities.Order; // Classe Order definida no pacote Entities
-import Entities.Enums.OrderStatus; // Enum OrderStatus definido no pacote Entities.Enums
+import Model.Entities.Order; // Classe Order definida no pacote Entities
+import Model.Enums.OrderStatus; // Enum OrderStatus definido no pacote Entities.Enums
 
 /**
  * Classe principal do programa Aula17.

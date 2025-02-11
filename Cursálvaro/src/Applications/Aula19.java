@@ -3,8 +3,8 @@ package Applications; // Define o pacote onde a classe está localizada
 import java.text.ParseException; // Importa a classe para tratar exceções de parsing de data
 import java.text.SimpleDateFormat; // Importa a classe para formatação de data
 
-import Entities.Comment; // Importa a classe Comment
-import Entities.Post; // Importa a classe Post
+import Model.Entities.Comment; // Importa a classe Comment
+import Model.Entities.Post; // Importa a classe Post
 
 public class Aula19 { // Classe principal que contém o método main
 	

@@ -7,10 +7,10 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import Entities.Departament;
-import Entities.HourContract;
-import Entities.Worker;
-import Entities.Enums.WorkerLevel;
+import Model.Entities.Departament;
+import Model.Entities.HourContract;
+import Model.Entities.Worker;
+import Model.Enums.WorkerLevel;
 
 /**
  * A classe `Aula18` representa a aplicação principal que permite ao usuário

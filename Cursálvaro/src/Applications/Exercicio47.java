@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.text.ParseException;
 
 // Importação das classes do pacote Entities (assumindo que essas classes existem)
-import Entities.Product1;
-import Entities.ImportedProduct;
-import Entities.UsedProduct;
+import Model.Entities.Product1;
+import Model.Entities.ImportedProduct;
+import Model.Entities.UsedProduct;
 
 public class Exercicio47 {
     

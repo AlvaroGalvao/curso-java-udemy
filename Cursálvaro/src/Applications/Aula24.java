@@ -5,10 +5,10 @@ import java.util.List;    // Importação da interface List
 import java.util.ArrayList; // Importação da implementação ArrayList
 import java.util.Scanner; // Importação para entrada de dados pelo console
 
-import Entities.Enums.Color; // Importa a enumeração Color
-import Entities.Rectangle;   // Importa a classe Rectangle
-import Entities.Circle;      // Importa a classe Circle
-import Entities.Shape;       // Importa a classe abstrata Shape
+import Model.Enums.Color; // Importa a enumeração Color
+import Model.Entities.Rectangle;   // Importa a classe Rectangle
+import Model.Entities.Circle;      // Importa a classe Circle
+import Model.Entities.Shape;       // Importa a classe abstrata Shape
 
 // Classe principal que contém o método main
 public class Aula24 { 

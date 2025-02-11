@@ -6,11 +6,11 @@ import java.util.Locale;
 import java.util.Date;
 import java.util.Scanner;
 
-import Entities.Client;
-import Entities.Order1;
-import Entities.OrderItem;
-import Entities.Product;
-import Entities.Enums.OrderStatus;
+import Model.Entities.Client;
+import Model.Entities.Order1;
+import Model.Entities.OrderItem;
+import Model.Entities.Product;
+import Model.Enums.OrderStatus;
 
 // Classe principal que executa a aplicação
 public class Exercicio45 { 

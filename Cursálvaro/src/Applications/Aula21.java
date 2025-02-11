@@ -1,9 +1,9 @@
 package Applications;
 
 // Importação das classes do pacote Entities
-import Entities.Account;
-import Entities.SavingsAccount;
-import Entities.BusinessAccount;
+import Model.Entities.Account;
+import Model.Entities.SavingsAccount;
+import Model.Entities.BusinessAccount;
 
 // Classe principal para demonstrar o uso de herança e polimorfismo em contas bancárias
 public class Aula21 {

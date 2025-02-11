@@ -1,7 +1,7 @@
 package Applications; // Define o pacote onde a classe está localizada
 
-import Entities.Account; // Importa a classe Account do pacote Entities
-import Entities.SavingsAccount; // Importa a classe SavingsAccount do pacote Entities
+import Model.Entities.Account; // Importa a classe Account do pacote Entities
+import Model.Entities.SavingsAccount; // Importa a classe SavingsAccount do pacote Entities
 
 public class Aula22 { // Declaração da classe principal
 	

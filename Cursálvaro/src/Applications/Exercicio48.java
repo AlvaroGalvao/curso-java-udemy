@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Locale;
 
-import Entities.Pessoa;
-import Entities.PessoaFisica;
-import Entities.PessoaJuridica;
+import Model.Entities.Pessoa;
+import Model.Entities.PessoaFisica;
+import Model.Entities.PessoaJuridica;
 
 public class Exercicio48 {
 	

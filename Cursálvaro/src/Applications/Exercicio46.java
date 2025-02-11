@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import Entities.Employee;
-import Entities.OutsourcedEmployee;
+import Model.Entities.Employee;
+import Model.Entities.OutsourcedEmployee;
 
 public class Exercicio46 { // Declaração da classe principal.
 
